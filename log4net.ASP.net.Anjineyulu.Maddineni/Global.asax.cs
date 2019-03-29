@@ -11,6 +11,8 @@ namespace log4net.ASP.net.Anjineyulu.Maddineni
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            //Step 2 : log4net.Config.XmlConfigurator.Configure(); in Global.asax
+            log4net.Config.XmlConfigurator.Configure();
         }
     }
 }
